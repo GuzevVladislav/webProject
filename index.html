@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>scheduler</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul class="navigation__links">
+                <li class="navigation__item">Главная</li>
+                <li class="navigation__item">Распорядок дня</li>
+                <li class="navigation__item">Цели на год</li>
+                <li class="navigation__item">Профиль</li>
+                
+            </ul>
+            <div class="profile">
+                <div class="profile__icon">
+                    <img src="" alt="#">
+                </div>
+                <div class="profile__name"><p>Владислав Гузев</p></div>
+                <div class="profile__leave"><img src="" alt="#"></div>
+            </div>
+        </div>
+
+        <!-- Main block -->
+        <!-- Calendar -->
+        <div class="main">
+            <div class="calendar">
+                <div class="calendar-wrapper">
+                    <button id="btnPrev" type="button">Предыдущий</button>
+                    <button id="btnNext" type="button">Следующий</button>
+                <div id="divCal"></div>
+                </div>
+
+            </div>
+       
+        <!-- Tasks -->
+        <div class="tasks">
+            <div class="tasks__today">
+                <div class="tasks__date-1">04.12.2023 (сегодня)</div>
+                <p>На сегодня задач нет</p>
+            </div>
+                <div class="task__tomorrow">
+                    <div class="tasks__date-2">05.12.2023 (завтра)</div>
+                    <div class="task">
+                        <div class="task__name">Покормить собаку</div>
+                        <div class="task__expand">
+                            <img src="" alt="#">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- SCRIPTS -->
+    <script src="scripts/index.js"></script>
+</body>
+</html>
